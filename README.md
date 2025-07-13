@@ -14,3 +14,5 @@ This repository contains a minimal Electron application that opens an empty wind
    npm start
    ```
 4. A stand-alone window will appear with no content.
+
+Press `Ctrl+Shift+H` (or `Cmd+Shift+H` on macOS) at any time to show or hide the window.
