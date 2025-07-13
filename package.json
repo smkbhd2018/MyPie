@@ -1,0 +1,12 @@
+{
+  "name": "mypie",
+  "version": "1.0.0",
+  "description": "Simple stand-alone app that opens an empty window",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron --no-sandbox ."
+  },
+  "devDependencies": {
+    "electron": "^30.0.0"
+  }
+}
