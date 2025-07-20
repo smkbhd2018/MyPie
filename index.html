@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pie Menu</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: transparent;
+    }
+    #menu {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #menu .slice {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      top: 50%;
+      left: 50%;
+      transform-origin: 0 0;
+    }
+    #menu .slice img {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      left: 30px;
+      top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div id="menu">
+    <div class="slice" style="transform: rotate(0deg) skewY(-60deg);">
+      <img src="assets/img/github-logo.svg" />
+    </div>
+    <div class="slice" style="transform: rotate(90deg) skewY(-60deg);">
+      <img src="assets/img/Timer.gif" />
+    </div>
+    <div class="slice" style="transform: rotate(180deg) skewY(-60deg);">
+      <img src="assets/img/paypal-logo-white.png" />
+    </div>
+    <div class="slice" style="transform: rotate(270deg) skewY(-60deg);">
+      <img src="assets/img/ColorRainbow.png" />
+    </div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
